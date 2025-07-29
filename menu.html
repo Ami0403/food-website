@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu List</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f8f8f8;
+    }
+
+    .navbar {
+        align-items: center;
+      background: #651e1e;
+      color: white;
+      padding: 10px 20px;
+      display: flex;
+      overflow-x: auto;
+      white-space: nowrap;
+      scrollbar-width: none; /* Firefox */
+    }
+
+    .navbar::-webkit-scrollbar {
+      display: none; /* Chrome, Safari */
+    }
+
+    .nav-menu {
+        align-items: center;
+      margin-right: 20px;
+      margin-left: 20px;
+    }
+
+    .menu-item {
+      display: inline-block;
+      align-items: center;
+      color: white;
+      font-size: 16px;
+      padding: 10px 15px;
+      border-radius: 20px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      white-space: nowrap;
+    }
+
+    .menu-item:hover {
+      background-color: #843434;
+    }
+
+    /* Responsive layout (optional) */
+    @media (max-width: 600px) {
+      .menu-item {
+        font-size: 14px;
+        padding: 8px 12px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="nav-menu">
+        <div class="menu-item">All</div>
+      </div>
+      <div class="nav-menu">
+        <div class="menu-item" id="hot">Hot Beverages</div>
+      </div>
+      <div class="nav-menu">
+        <div class="menu-item">Cold Beverages</div>
+      </div>
+      <div class="nav-menu">
+        <div class="menu-item">Refreshment</div>
+      </div>
+      <div class="nav-menu">
+        <div class="menu-item">Special Combo</div>
+      </div>
+      <div class="nav-menu">
+        <div class="menu-item">Desserts</div>
+      </div>
+      <div class="nav-menu">
+        <div class="menu-item">Burger French Fries</div>
+      </div>
+      <div class="nav-menu">
+        <div class="menu-item">French Fries</div>
+      </div>
+      <div class="nav-menu">
+        <div class="menu-item">Burger</div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Main part -->
+
+  <main>
+    <section class="menu-sections">
+        
+    </section>
+  </main>
+</body>
+
+</html>
